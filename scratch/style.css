@@ -1,4 +1,9 @@
-p{
+em {
+font-style: normal;
+text-decoration: underline;
+}
+
+p {
   color: red;
   background-color: lightgrey;
   margin-left: 1em;
