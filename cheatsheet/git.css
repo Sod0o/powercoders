@@ -1,17 +1,26 @@
 h1,h2 {
-  font-family: sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: rgb(236, 192, 159);
+  padding: .5em 1.5em;
+  border-radius: 5px;
+  text-shadow: 1px; 1px; 1px; black;
 }
 
-p {
-  font-family: serif;
+body {
+  font-family: 'Crimson Text', serif;
+  background-color: rgba(249, 249, 249, 0.12);
 }
 
 #git-config, #git-init, #git-add, #git-status, #git-rm, #git-log, #git-diff, #git-diff-cached, #git-mv, #link, #single-commit {
-  font-family: monospace;
+  font-family: 'Inconsolata', monospace;
 }
 
 .git-commit, .git-push, .index, .push, .repo {
-  font-family: monospace;
+  font-family: 'Inconsolata', monospace;
+}
+
+.git-commit, .dir-ex, .git-push, .index, .repo, .first-push {
+  border-style: outset;
 }
 
 #hunk {
@@ -29,9 +38,29 @@ p {
 }
 
 #diff-example {
-  color: lightgray;
+  color: rgb(178, 188, 190);
 }
 
 span.linenr {
   color: rgb(0, 0, 0);
+}
+
+#git-config, #diff-example, #workflow, #git-init, #git-add, #git-status, #git-rm, #git-log, #git-diff, #git-diff-cached, #git-mv, #link, #workflow {
+  border-style: outset;
+}
+
+.doctype {
+  color: rgb(227, 137, 76);
+}
+
+.tags {
+  color: rgb(161, 217, 247);
+}
+
+.dir-name {
+  color: rgb(227, 137, 76);
+}
+
+.ref {
+  color: rgb(163, 138, 71)
 }
