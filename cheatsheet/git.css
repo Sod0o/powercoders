@@ -1,0 +1,37 @@
+h1,h2 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: serif;
+}
+
+#git-config, #git-init, #git-add, #git-status, #git-rm, #git-log, #git-diff, #git-diff-cached, #git-mv, #link, #single-commit {
+  font-family: monospace;
+}
+
+.git-commit, .git-push, .index, .push, .repo {
+  font-family: monospace;
+}
+
+#hunk {
+  color: black;
+  background-color: gray;
+}
+
+.deleted-paragraph {
+  background-color: rgb(117, 12, 12);
+}
+
+
+.updated-paragraph, .added-paragraph {
+  background-color: rgb(13, 69, 34)
+}
+
+#diff-example {
+  color: lightgray;
+}
+
+span.linenr {
+  color: rgb(0, 0, 0);
+}
