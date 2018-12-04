@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS CHEATSHEET</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <h1>Introductory CSS</h1>
+
+    <p>HTML says "What it is", not "What it should look like".</p>
+    <p>Cascading Style Sheets (CSS) say what it should look like
+      <ul>
+        <li>"This element…"</li>
+        <li>"… or these elements…"</li>
+        <li>"… should look like this"</li>
+      </ul></p>
+    <p>These are CSS rules.</p>
+
+    <h2>A CSS rule</h2>
+    <p>A formal definition of the structure.</p>
+
+    <pre>
+      <span class="selector">selector</span> {
+        property_1: value_1;
+        property_2: value_2;
+        property_3: value_3;
+        ...
+      }
+    </pre>
+
+    <p><strong>Here's an example CSS rule:</strong></p>
+
+    <pre>
+      <span class="selector">p</span> {
+      <span class="properties"> color</span>: <span class="backgroung-color">red</span>;
+      <span class="properties"> font-weight</span>: <span class="font">bold</span>;
+      <span class="properties"> margin-left</span>: <span class="margin">2em</span>;
+      }
+    </pre>
+
+    <p>It starts with a selector, p. The selector says which elements the rule
+    should apply to. In this case, the selector will apply to all the p elements on the page.
+    The selector is followed by a block of <strong>declarations</strong>. The block starts and
+    ends with the opening and closing curly brackets.</p>
+    <p>Inside the block are three declarations. Each declaration is the name of
+    a property, a colon, and the value for the property. And then finished with a semi-colon.
+    This CSS rule tells the browser to find all the p elements and make the
+    text color red, bold, and give them a left margin that is 2 ems wide.</p>
+    <p>An "em" is a special distance – it's the width of the letter m in
+    whichever font and size you are using. So if you have a big font 2ems is
+    wider than 2ems in smaller font.</p>
+
+    <h2>Adding CSS to a file</h2>
+    <ul>
+      <li>Create an empty file called style.css in a directory</li>
+      <li>Create a css.html in that same directory</li>
+    </ul>
+
+    <h2>How to link a style sheet to an html file?</h2>
+
+    <pre>
+      <span class="tags">&lt;head&gt;</span>
+        <span class="tags">&lt;title&gt;</span><strong>CSS examples</strong><span class="tags">&lt;/title&gt;</span>
+        <span class="tags">&lt;link</span> <span class="linker">rel</span>=<span class="values">"stylesheet"</span> <span class="linker">type</span>=<span class="values">"text/css"</span> <span class="linker">href</span>=<span class="values">"style.css"</span>&gt;
+      <span class="tags">&lt;head&gt;</span>
+    </pre>
+
+    <h3>Don't forget to add and commit</h3>
+    <pre>
+      %git add style.css (the located directory)
+      %git add css.html (the located directory)
+      %git commit -m "Write a message"
+    </pre>
+
+
+
+
+
+
+
+  </body>
+</html>
