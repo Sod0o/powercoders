@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>GIT CHEAT-SHEET</title>
+    <link rel="stylesheet" type="text/css" href="git.css">
   </head>
   <body>
     <div id="intro">
@@ -78,22 +79,24 @@
         compares with the file in the repository.</p>
       <div id="git-diff">%git diff</div>
 
-      <pre>
-        1: <span id="hunk">@@ -10,6 +10,5 @@</span>
-        2:  &lt;p&gt;This was one of my example paragraphs that
-        3:    runs over more than one line.&lt;/p&gt;
-        4:
-        5: <span id="deleted-paragraph">-&lt;p&gt;This paragraph will be deleted.&lt;/p&gt;
-        6: -
-        7: -&lt;p&gt;This paragraph will be updated.&lt;/p&gt;</span>
-        8: <span id="updated-paragraph">+&lt;p&gt;This paragraph will be updated
-        9: +  with some extra content.&lt;/p&gt;</span>
-        10:
-        11: <span id="added-paragraph">+&lt;p&gt;This paragraph is completely new.&lt;/p&gt;
-        12: +</span>
-        13:  &lt;p&gt;This is another example paragraph.&lt;/p&gt;
-        14:
-      </pre>
+      <div id="diff-example">
+        <pre>
+          <span class="linenr">1:</span> <span id="hunk">@@ -10,6 +10,5 @@</span>
+          <span class="linenr">2:</span> <span class="no-change">&lt;p&gt;This was one of my example paragraphs that</span>
+          <span class="linenr">3:</span>    <span class="no-change">runs over more than one line.&lt;/p&gt;</span>
+          <span class="linenr">4:</span>
+          <span class="linenr">5:</span> <span class="deleted-paragraph">-&lt;p&gt;This paragraph will be deleted.&lt;/p&gt;</span>
+          <span class="linenr">6:</span> <span class="deleted-paragraph">-</span>
+          <span class="linenr">7:</span> <span class="deleted-paragraph">-&lt;p&gt;This paragraph will be updated.&lt;/p&gt;</span>
+          <span class="linenr">8:</span> <span class="updated-paragraph">+&lt;p&gt;This paragraph will be updated</span>
+          <span class="linenr">9:</span> <span class="updated-paragraph">+  with some extra content.&lt;/p&gt;</span>
+          <span class="linenr">10:</span>
+          <span class="linenr">11:</span><span class="added-paragraph">+&lt;p&gt;This paragraph is completely new.&lt;/p&gt;</span>
+          <span class="linenr">12:</span><span class="added-paragraph">+</span>
+          <span class="linenr">13:</span> <span class="change-color">&lt;p&gt;This is another example paragraph.&lt;/p&gt;</span>
+          <span class="linenr">14:</span>
+        </pre>
+      </div>
 
       <ul>
         <li>@@ is the hunk header
@@ -242,7 +245,7 @@
 
       <div class="repo-doublecheck">
         <h2>Double check repository</h2>
-        <p><div class="repo">%cd dir-name</div>
+        <p><div class="repo">% cd dir-name</div>
         <div class="repo">% dir-name .git</div></p>
        </div>
 
