@@ -1,0 +1,46 @@
+.properties {
+  color: rgb(148, 110, 13)
+}
+
+.background-color {
+  color: white;
+  background-color: red;
+}
+
+.tags {
+  color: rgb(145, 220, 223)
+}
+
+.linker {
+  color: rgb(179, 143, 81)
+}
+
+.values {
+  color: rgb(182, 105, 48)
+}
+
+body {
+  background-color: rgb(250, 214, 241)
+}
+
+.selector {
+  color: rgb(147, 206, 242)
+}
+
+h1 {
+  color: rgb(12, 33, 189)
+}
+
+h2 {
+  color: rgb(38, 41, 228)
+}
+
+h3 {
+  color: rgb(82, 101, 232)
+}
+
+p {
+  color: rgb(9, 13, 91);
+  margin-left: 1em;
+  margin-right: 1em;
+}
