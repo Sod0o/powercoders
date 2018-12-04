@@ -7,7 +7,7 @@
     <div id="intro">
       <h1>Version Control System:GIT</h1>
       <p>Why Version control?
-      You're going to be working on a long project so you might difinitely make mistakes.
+      <br>You're going to be working on a long project so you might difinitely make mistakes.
       Or you might also want to experiment.
       How do we do that safely?</p>
         <ul>
@@ -15,7 +15,7 @@
         </ul>
     </div>
 
-    <div id="detail">
+    <div id="details">
       <h2>GIT CONFIG</h2>
       <p>The first thing to do is to configure Git with a couple of pieces of information it's going to need later.</p>
       <div id="git-config">%git config --global user.email sodaba.bashiri@powercoders.org<br>
@@ -23,7 +23,7 @@
       <p>So run these two commands, using your e-mail address and name.</p>
 
       <h2>Git fundamentals</h2>
-      <p>There are three locations that GIT commands files to be copied between them:
+      <p>Git commands copy files between these locations:
         <ol>
           <li>Working directory</li>
           <li>Index</li>
@@ -31,59 +31,72 @@
         </ol></p>
 
       <h2>Typical Git workflow</h2>
-      <p><strong>Git init</strong>- Git needs to know hwere the top, or root, of
+      <p><strong>Git init</strong>- Git needs to know where the top, or root, of
       the repository is going to be. Once you do it with git init,  Git can
       start to manage all the files in that directory, and all the directories below.
       You can have multiple Git repositories on your computer, as long as they
       are not inside one another.</p>
+      <div id="git-init">%git init</div>
 
       <p><strong>Git add</strong>- When you're done with the file you're working on, you copy it to the index using git add.</p>
+      <div id="git-add">%git add dir-name"
+      <p>...</p>
+      <p><div class="git-commit">%git commit -m "Write a message."</div></p>
+      <p>...</p>
+      <p><div class="git-push">%git push"</div></p>
 
-      <p><strong>Git commit</strong>- When you've double checked your file in the index and you're sure to save it to the repository,, you use git commit.</p>
+      <p><strong>Git commit</strong>- When you've double checked your file in the index and you're sure to save it to the repository, you use git commit.</p>
+      <div class="git-commit">%git commit -m "Write a message."</div>
+      <p>...</p>
+      <p><div class="git-push">%git push"</div></p>
 
-      <div id="git-commit">% git commit -m "Save first version of file."</div>
-
-      <p>- To make a copy of the file, or files, in the index, and save them in the repository we use git commit.
-
+      <p>To make a copy of the file, or files, in the index, and save them in the repository we use git commit.
       Git needs us to give a message that is associated with the commit.
-
       Here, I'm using the -m flag to specify the commit message.
+      <span id="doublequotes">Don't forget the double quotes.</span></p>
 
-      Don't forget the double quotes.</p>
+      <p><strong>Git status</strong>- it shows the tracked or untracked, commited or uncommited files.</p>
+      <div id="git-status">%git status</div>
 
-    </div>
-
-      <p><strong>Git status</strong>- it shows the tracked or untracked files, commited or uncommited files.</p>
-      <p>( SIDE NOTE) - the index is sometimes also known as the cache, or stage.
-      So as well as reading documentation that talks about adding a changed file to Git you might also see term staged being used.</p>
+      <p>( SIDE NOTE) - The index is sometimes also known as the <span class="index">cache</span>, or <span class="index">stage</span>.
+      So as well as reading documentation that talks about adding a changed file to Git, you might also see term staged being used.</p>
 
       <p><strong>Git rm</strong>- If you wanted to remove/delete a file from the index, you use git rm.
-      ( This wouldn't delete it from the working directory, just the index.)</p>
+      ( This wouldn't delete it from the working directory, just the index. So before that, you have to delete the file from the computer.)</p>
+      <div id="git-rm">%git rm --cached&lt;files&gt;..."</div>
+      <p>...</p>
+      <div class="git-commit">%git commit -m "Write a message."</div>
 
       <p><strong>Git log</strong>- Shows you what's changed.</p>
+      <div id="git-log">%git log</div>
 
-      <p><strong>Git diff</strong>- Once we've made some changes that we want to add to the index it can be helpful to easily view them to double check that they're what we want.For that we use the git diff command.
-      This shows the difference between what's in the working directory and what's in the index.</p>
+      <p><strong>Git diff</strong>- Once we've made some changes that we want
+        to add to the index, it can be helpful to easily view them to double
+        check that they're what we want. For that we use the git diff command.</p>
+      <p>This shows the difference between what's in the working directory and
+        what's in the index. If it didn't find any file in the index, it
+        compares with the file in the repository.</p>
+      <div id="git-diff">%git diff</div>
 
       <pre>
-        1: @@ -10,6 +10,5 @@
+        1: <span id="hunk">@@ -10,6 +10,5 @@</span>
         2:  &lt;p&gt;This was one of my example paragraphs that
         3:    runs over more than one line.&lt;/p&gt;
         4:
-        5: -&lt;p&gt;This paragraph will be deleted.&lt;/p&gt;
+        5: <span id="deleted-paragraph">-&lt;p&gt;This paragraph will be deleted.&lt;/p&gt;
         6: -
-        7: -&lt;p&gt;This paragraph will be updated.&lt;/p&gt;
-        8: +&lt;p&gt;This paragraph will be updated
-        9: +  with some extra content.&lt;/p&gt;
+        7: -&lt;p&gt;This paragraph will be updated.&lt;/p&gt;</span>
+        8: <span id="updated-paragraph">+&lt;p&gt;This paragraph will be updated
+        9: +  with some extra content.&lt;/p&gt;</span>
         10:
-        11: +&lt;p&gt;This paragraph is completely new.&lt;/p&gt;
-        12: +
+        11: <span id="added-paragraph">+&lt;p&gt;This paragraph is completely new.&lt;/p&gt;
+        12: +</span>
         13:  &lt;p&gt;This is another example paragraph.&lt;/p&gt;
         14:
       </pre>
 
       <ul>
-        <li>@@ is the chunk header
+        <li>@@ is the hunk header
           <ul>
             <li>-m,n = Starts at line m, continues for n lines</li>
             <li>+o,p = Starts at line o, continues for p lines</li>
@@ -100,14 +113,138 @@
         </li>
       </ul>
 
+      <p><strong>Git diff --cached</strong>- It compares the index with the repository.
+      <div id="git-diff-cached">%git diff --cached</div></p>
 
+      <p><strong>Git mv</strong>- We use this to rename the file.
+      <div id="git-mv">%git mv old-name new-name</div></p>
+      <p>...</p>
+      <div class="git-commit">%git commit -m "Write a message."</div>
+    </div>
 
+    <div id="add-link">
+      <h2>Add a link into a text, image, video, etc</h2>
+      <p>a (anchor) element has content and an attribute.</p>
+      <p>The href (Hypertext reference) attribute is the name of the file that the link will go to. And it looks like this:
+      <div id="link">&lt;a href="name-of-file.html"&gt;text of link&lt;/a&gt;</div></p>
 
+      <pre>
+        <span class="doctype">&lt;!DOCTYPE html&gt;</span>
+        <span class="tags">&lt;html&gt;</span>
+        <span class="tags">&lt;head&gt;</span>
+          <span class="tags">&lt;title&gt;</span>Cheatsheets<span class="tags">&lt;/title&gt;</span>
+        <span class="tags">&lt;/head&gt;</span>
 
+        <span class="tags">&lt;body&gt;</span>
+          <span class="tags">&lt;ul&gt;</span>
+            <span class="tags">&lt;li&gt;</span><span class="tags">&lt;a </span>href="html.html"&gt;What I know about HTML<span class="tags">&lt;/a&gt;</span><span class="tags">&lt;/li&gt;</span>
+            <span class="tags">&lt;li&gt;</span><span class="tags">&lt;a </span>href="git.html"&gt;What I know about Git<span class="tags">&lt;/a&gt;</span><span class="tags">&lt;/li&gt;</span>
+            <span class="tags">&lt;li&gt;</span><span class="tags">&lt;a </span>href="shell.html"&gt;What I know about the shell<span class="tags">&lt;/a&gt;</span><span class="tags">&lt;/li&gt;</span>
+          <span class="tags">&lt;/ul&gt;</span>
+        <span class="tags">&lt;/body&gt;</span>
+      <span class="tags">&lt;/html&gt;</span>
+      </pre>
+    </div>
+    </div>
 
+    <div id="single-commit">
+      <h2>Commit all files as a single commit</h2>
+      <pre>
+        %git add dir1-name dir2-name dir3-name dir4-name
+        %git diff --cached  #  or --staged
+        %git status
+        %git commit -m "Write a message"
+      </pre>
+    </div>
 
+    <div id="dvcs">
+      <h2>Distributed version control (DVCS)</h2>
+      <p>So far your version control repository is only stored on your computer.
+        Distributed version control was invented for teams of programmers,
+        to make it easy for other people on the team to see your changes, maybe
+        comment on them, or review them, or learn from them.</p>
 
+      <p>Essentially, this is a way of saying that two or more different repositories are linked together.
+        Once they're linked together there are commands to manage copying commits
+        from one repository to another. And lots of tools exist to let you see
+        the repository in a web browser, view the commits, give feedback, and so on.</p>
 
+      <p>Various companies exist that provide online hosting for copies of your
+        repositories, including <a href="www.github.com">GitHub</a>, <a href="www.gitlab.com">GitLab</a>, <a href="www.bitbucket.org">BitBucket</a>, and more.
+        But we're going to use GitHub.</p>
+    </div>
+
+    <div id="github">
+      <ul>
+        <li>Create a GitHub account</li>
+          <ul>
+            <li>https://www.github.com/join</li>
+            <li>Username</li>
+            <li>E-mail address</li>
+            <li>Password</li>
+            <li>Choose the free, public plan</li>
+          </ul>
+        <li>Create a repository at GitHub</li>
+          <ul>
+            <li>https://help.github.com/articles/create-a-repo/</li>
+            <li>Create a public repository</li>
+              <ul>
+                <li>Called poco-yourname</li>
+              </ul>
+          </ul>
+        <li>Description: "Powercoders Basel: YOUR NAME"</li>
+        <li>Do not initialize with a README or LICENSE</li>
+      </ul>
+      </div>
+
+      <div id="github-config">
+        <h2>Configure your local repository to sync</h2>
+        <ul>
+          <li>Other copies of your repository are called <b>remotes</b></li>
+          <li>Find your GitHub repository URL</li>
+            <ul>
+              <li>Looks like https://github.com/user/poco-yourname.git</li>
+            </ul>
+          <li>git remote add origin https://github.com/user/poco-yourname.git</li>
+          <li>git remote -v to view configured remotes</li>
+        </ul>
+
+        <p>In Git terminology, copies of your repository that are stored
+          elsewhere, like on GitHub, are called remotes.</p>
+
+          <p>To tell your local repository about these we use the git remote add command.
+          It needs to know the URL to the remote repository. For GitHub it's
+          going to look like this URL here. Replace the user in the URL with
+          the username that you chose when you signed up to Git, and the last
+          part is poco.git because we called the repository poco.</p>
+
+          <p>This is also the URL for the repository in the browser, with .git
+          added to the end, so you can cut and paste.</p>
+
+          <p>The origin in the command is the short-name that we're going to use for the remote.
+          You can use anything you want. However, the convention in Git is that
+          the public version of the repository is called origin</p>
+      </div>
+
+      <div class="push">
+        <h2>Push commits to GitHub</h2>
+        <ul>
+          <li>git push -u origin master - first time</li>
+          <li>git push - after that</li>
+        </ul>
+        <p>Now that that your local repository is configured to sync with the
+          repository on GitHub we can copy all of our commits so far to the
+          copy of the repository on GitHub.</p>
+        <p>To do that, run the git push command.</p>
+        <p>The very first time we do this we have to tell Git exactly how these two repositories are linked, including how they branch.
+          You will probably be prompted for the password for your GitHub account.</p>
+      </div>
+
+      <div class="repo-doublecheck">
+        <h2>Double check repository</h2>
+        <p><div class="repo">%cd dir-name</div>
+        <div class="repo">% dir-name .git</div></p>
+       </div>
 
 
 
