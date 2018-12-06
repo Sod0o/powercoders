@@ -1,0 +1,29 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: rgba(191, 40, 40, 0.93);
+}
+
+body {
+  font-family: 'Slabo 27px', serif;
+  color: white;
+  background-color: rgb(251, 151, 63);
+  font-size: 24px;
+  margin: 0.50em;
+
+
+}
+
+.nutrition-facts {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+h2, .frosting, .time, .preparation, .baking, .making {
+  background-color: rgb(228, 90, 90);
+  margin: .50em;
+}
+
+.ingredients, #frosting, #direction, .quantity, #preparation, .duration, .cooling,
+#baking, .number-of-servings, .nutrition-facts {
+  background-color: rgb(238, 169, 69);
+}
