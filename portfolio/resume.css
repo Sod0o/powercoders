@@ -1,0 +1,15 @@
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Noto Serif TC', serif;
+}
+
+.referenzen {
+  font-family: 'Cutive Mono', monospace;
+}
+
+.personal-info, .address, .telefon-number, .date-of-birth {
+  padding-left: 5em;
+}
