@@ -1,10 +1,14 @@
+p {
+  color: rgba(247, 133, 255, 0.78)
+}
+
 p.warning {
   background-color: red;
   color: white;
   font-style: bold;
   padding: .5em 1em;
   border-radius: 5px;
-  text-shadow: 1px; 1px; 1px black;
+  text-shadow: 1px; 1px; 1px; black;
 }
 
 p.warning::before {
@@ -28,4 +32,7 @@ p#footer {
   background-color: white;
   padding-top: .5em;
   margin-left: 0;
+
 }
+
+color: rgb(210, 254, 194);
