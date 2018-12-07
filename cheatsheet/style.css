@@ -27,16 +27,17 @@ body {
   color: rgb(147, 206, 242)
 }
 
-h1 {
-  color: rgb(12, 33, 189)
+h1,h2,h3 {
+  color: rgb(247, 219, 250)
 }
 
-h2 {
-  color: rgb(38, 41, 228)
+h1,h2,h3 {
+  background-color: rgb(208, 122, 219)
 }
 
-h3 {
-  color: rgb(82, 101, 232)
+h1,h2,h3 {
+  padding: 0.5px
+  border-radius: 5px;
 }
 
 p {

@@ -38,7 +38,7 @@
 
       <h2>Typical Git workflow</h2>
 
-      <p><strong>Git init</strong>- Git needs to know where the top, or root, of
+      <p><span class="big-font"><strong>Git init</strong></span> - Git needs to know where the top, or root, of
       the repository is going to be. Once you do it with git init,  Git can
       start to manage all the files in that directory, and all the directories below.
       You can have multiple Git repositories on your computer, as long as they
@@ -46,7 +46,7 @@
 
       <div id="git-init">%git init</div>
 
-      <p><strong>Git add</strong>- When you're done with the file you're working on, you copy it to the index using git add.</p>
+      <p><span class="big-font"><strong>Git add</strong></span> - When you're done with the file you're working on, you copy it to the index using git add.</p>
       <p><div id="git-add">%git add dir-name
 
       <br>...
@@ -57,7 +57,7 @@
 
       <br>%git push</div></p>
 
-      <p><strong>Git commit</strong>- When you've double checked your file in the index and you're sure to save it to the repository, you use git commit.</p>
+      <p><span class="big-font"><strong>Git commit</strong></span> - When you've double checked your file in the index and you're sure to save it to the repository, you use git commit.</p>
       <p><div class="git-commit">%git commit -m "Write a message."
 
       <br>...
@@ -69,22 +69,22 @@
       Here, I'm using the -m flag to specify the commit message.
       <span id="doublequotes">Don't forget the double quotes.</span></p>
 
-      <p><strong>Git status</strong>- it shows the tracked or untracked, commited or uncommited files.</p>
+      <p><span class="big-font"><strong>Git status</strong></span> - it shows the tracked or untracked, commited or uncommited files.</p>
       <div id="git-status">%git status</div>
 
       <p>( SIDE NOTE) - The index is sometimes also known as the <strong>cache</strong>, or <strong>stage</strong>.
       So as well as reading documentation that talks about adding a changed file to Git, you might also see term staged being used.</p>
 
-      <p><strong>Git rm</strong>- If you wanted to remove/delete a file from the index, you use git rm.
+      <p><span class="big-font"><strong>Git rm</strong></span> - If you wanted to remove/delete a file from the index, you use git rm.
       ( This wouldn't delete it from the working directory, just the index. So before that, you have to delete the file from the computer.)</p>
       <p><div id="git-rm">%git rm --cached&lt;files&gt;..."
       <br>...
       <br>%git commit -m "Write a message."</div></p>
 
-      <p><strong>Git log</strong>- Shows you what's changed.</p>
+      <p><span class="big-font"><strong>Git log</strong></span> - Shows you what's changed.</p>
       <div id="git-log">%git log</div>
 
-      <p><strong>Git diff</strong>- Once we've made some changes that we want
+      <p><span class="big-font"><strong>Git diff</strong></span> - Once we've made some changes that we want
         to add to the index, it can be helpful to easily view them to double
         check that they're what we want. For that we use the git diff command.</p>
       <p>This shows the difference between what's in the working directory and
@@ -92,7 +92,7 @@
         compares with the file in the repository.</p>
       <div id="git-diff">%git diff</div>
 
-      <p><strong>Unified diff format</strong></p>
+      <p><span class="big-font"><strong>Unified diff format</strong></span></p>
       <div id="diff-example">
 
         <pre>
@@ -131,10 +131,10 @@
         </li>
       </ul>
 
-      <p><strong>Git diff --cached</strong>- It compares the index with the repository.
+      <p><span class="big-font"><strong>Git diff --cached</strong></span> - It compares the index with the repository.
       <div id="git-diff-cached">%git diff --cached</div></p>
 
-      <p><strong>Git mv</strong>- We use this to rename the file.</p>
+      <p><span class="big-font"><strong>Git mv</strong></span> - We use this to rename the file.</p>
       <p><div id="git-mv">%git mv old-name new-name
 
       <br>...
@@ -143,12 +143,12 @@
     </div>
 
     <div id="add-link">
-      <h2>Add a link into a text, image, video, etc</h2>
+      <h2>Add a link into a Text, Image, Video, etc</h2>
       <p>a (anchor) element has content and an attribute.</p>
       <p>The href (Hypertext reference) attribute is the name of the file that the link will go to. And it looks like this:
       <div id="link">&lt;a href="name-of-file.html"&gt;text of link&lt;/a&gt;</div></p>
 
-      <p><strong>Example dir-name</strong></p>
+      <p><span class="big-font"><strong>Example dir-name</strong></span></p>
 
       <pre class="dir-ex">
         <span class="doctype">&lt;!DOCTYPE html&gt;</span>
@@ -170,7 +170,7 @@
 
     <div id="single-commit">
       <h2>Commit all files as a single commit</h2>
-      
+
       <pre id="workflow">
 
         %git add dir1-name dir2-name dir3-name dir4-name
