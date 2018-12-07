@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Hot chocolate</title>
+    <link rel="stylesheet" type="text/css" href="hotchoco.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Dosis|Nova+Mono" rel="stylesheet">
   </head>
 
   <body>
@@ -14,23 +16,23 @@
     <div class="ingredients">
       <h2>Ingredients:</h2>
 
-      <ol>
-        <li><span class="quantity">1/4 cup</span> <span class="quantity">baking cocoa</span></li>
-        <li><span class="quantity">2 tablespoons</span> <span class="quantity">brown sugar</span></li>
-        <li><span class="quantity">1 cup</span> <span class="quantity">boiling water</span></li>
-        <li><span class="quantity">2 teaspoons</span> <span class="quantity">Gustus Vitae spicy chocolate cinnamon cane sugar</span></li>
+      <ol class="ingreds">
+        <li><span class="quantity"><span class="nr">1/4</span> cup</span> <span class="quantity">baking cocoa</span></li>
+        <li><span class="quantity"><span class="nr">2</span> tablespoons</span> <span class="quantity">brown sugar</span></li>
+        <li><span class="quantity"><span class="nr">1</span> cup</span> <span class="quantity">boiling water</span></li>
+        <li><span class="quantity"><span class="nr">2</span> teaspoons</span> <span class="quantity">Gustus Vitae spicy chocolate cinnamon cane sugar</span></li>
         <li><span class="quantity">Dash</span> <span class="quantity">ground cloves or nutmeg</span></li>
-        <li><span class="quantity">3 cups</span> <span class="quantity">milk</span></li>
-        <li><span class="quantity">1 teaspoon</span> <span class="quantity">vanilla extract</span></li>
+        <li><span class="quantity"><span class="nr">3</span> cups</span> <span class="quantity">milk</span></li>
+        <li><span class="quantity"><span class="nr">1</span> teaspoon</span> <span class="quantity">vanilla extract</span></li>
         <li><span class="quantity">Whipped cream</span></li>
         <li><span class="quantity">Whole cinnamon sticks</span></li>
       </ol>
     </div>
 
-    <div class="directions">
+    <div>
       <h2>Directions:</h2>
 
-      <ol>
+      <ol class="directions">
         <li>In a small saucepan, mix cocoa and sugar; stir in water.
         Bring to a boil. Reduce heat; cook 2 minutes, stirring constantly.</li>
 
@@ -41,17 +43,15 @@
       </ol>
     </div>
 
-    <div class="nutrition-facts">
+    <div id="nutrition-facts">
       <h2>Nutrition Facts:</h2>
-      <p><span class="quantity">1 cup</span>: 159 calories, 6g fat (3g saturated fat), 18mg cholesterol,
-      <br>81mg sodium, 20g carbohydrate (16g sugars, 2g fiber), 7g protein.</p>
-
+      <p><div id="facts">1 cup: 159 calories, 6g fat (3g saturated fat), 18mg cholesterol, 81mg sodium, 20g carbohydrate (16g sugars, 2g fiber), 7g protein.</div></p>
     </div>
 
-    <div class="duration">
-      <h3>Total Time:</h3>
-      <p><strong>Prep/Total Time</strong>: <span class="duration">10 min</span>.
-      <div><strong>Makes</strong>: <span class="number-of-servings">4 servings</span></div></p>
+    <div id="duration">
+      <h3><span class="time">Total Time:</span></h3>
+      <p><span id="prep"><strong>Prep/Total Time:</strong></span><span class="duration">10 min</span>.</p>
+      <p><span id="making"><strong>Makes:</strong></span><span class="number-of-servings">4 servings</span></p>
     </div>
 
   </body>

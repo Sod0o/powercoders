@@ -1,0 +1,60 @@
+h1 {
+  color: white;
+  background-color: rgb(186, 44, 44);
+  font-family: 'Dosis', sans-serif;
+  font-style: bold;
+  padding: .5em 1em;
+  border-radius: 5px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+h2, .time {
+  color: white;
+  background-color: rgb(68, 216, 231);
+  padding: .5em 1.5em;
+  border-radius: 5px;
+  margin-left: .75em;
+  margin-right: .75em;
+}
+
+body {
+  color: white;
+  background-color: rgb(227, 219, 196);
+  font-family: 'Cinzel', serif;
+}
+
+.nr {
+  color: rgb(82, 12, 67);
+}
+
+h3, #prep, #making {
+  text-decoration: underline;
+}
+
+.ingreds {
+  background-color: rgb(233, 143, 152);
+  padding: .50em 1.5em;
+  border-radius: 5px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.directions {
+  background-color: rgb(233, 143, 152);
+  padding: .50em 1.5em;
+  border-radius: 5px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#facts, .duration, .number-of-servings, #prep, #making {
+  font-family: 'Nova Mono', monospace;
+  color: white;
+  background-color: rgb(233, 143, 152);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: .50em 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
