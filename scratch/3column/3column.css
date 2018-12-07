@@ -11,3 +11,24 @@ div {
 #header {
   margin: 1em;
 }
+
+#content {
+  position: absolute;
+  left: 18em;
+  min-height: 50vh;
+  width: calc(100% - 37em);
+}
+
+#secondary {
+  position: absolute;
+  left: 1em;
+  width: 15em;
+  min-height: 50vh;
+}
+
+#tertiary {
+  position: absolute;
+  right: 1em;
+  width: 15em;
+  min-height: 50vh;
+}
