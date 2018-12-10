@@ -4,12 +4,28 @@ h1, h2 {
 
 body {
   font-family: 'Noto Serif TC', serif;
+  margin: 2em 10em 10em;
 }
 
 .referenzen {
   font-family: 'Cutive Mono', monospace;
 }
 
-.personal-info, .address, .telefon-number, .date-of-birth {
-  padding-left: 5em;
+img {
+  float: right;
+}
+
+#personalien, #berufliche-tätigkeiten, #schulbildung {
+  position: relative;
+}
+
+.personal-info, #date-of-birth, #email-address,
+#date-of-arrival, #github-link, #telefon-number, .address, .work {
+  position: absolute;
+  left: 14em;
+}
+
+.address {
+  position: relative;
+  bottom: 2.5em;
 }
