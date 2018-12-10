@@ -1,0 +1,16 @@
+body {
+  font-family: 'Noto Serif TC', serif;
+  margin: 2em 2em;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+span.personal-question::after {
+  content: ":";
+}
+
+#me-large {
+  display: none;
+}

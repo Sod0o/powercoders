@@ -3,7 +3,11 @@
 
   <head>
     <title>Lebenslauf</title>
-    <link rel="stylesheet" type="text/css" href="resume.css">
+    <link rel="stylesheet" type="text/css" href="resume-small.css">
+    <link rel="stylesheet" type="text/css" href="resume-medium.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" type="text/css" href="resume-large.css" media="screen and (min-width: 960px)">
+    <link rel="stylesheet" type="text/css" href="resume-xlarge.css" media="screen and (min-width: 1200px)">
+    <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Noto+Serif+TC|Poppins" rel="stylesheet">
   </head>
 
@@ -11,7 +15,7 @@
   <div id="perso">
     <h1 align="center">Lebenslauf</h1>
 
-    <p><img src="Me.jpeg" alt="My image"></p>
+    <p><img id="me-small" src="Me.jpeg" alt="My image"><img id="me-large" src="me-large.jpeg" alt="My image"></p>
 
     <div id="personalien">
       <h2>Personalien</h2>
@@ -68,15 +72,16 @@
       <br>Schwerpunkt: Deutsch und Mathematik, sowie alltags-
       <br>kompetente Fächer</span></p>
 
-      <p><span class="years-of-education">2008 - 2012</span>
-      <span class="school">Mittelschule, 4. – 8. Klasse, Kabul, Afghanistan</span></p>
+      <div id="school-info">
+        <p><span class="years-of-education">2008 - 2012</span>
+        <span class="school">Mittelschule, 4. – 8. Klasse, Kabul, Afghanistan</span></p>
 
-      <p><span class="years-of-education">2005 - 2007</span>
-      <span class="school">Primarschule, 1.- 3. Klasse, Peshawar, Pakistan</span></p>
+        <p><span class="years-of-education">2005 - 2007</span>
+        <span class="school">Primarschule, 1.- 3. Klasse, Peshawar, Pakistan</span></p>
 
-      <p><span class="years-of-education">2004</span>
-      <span class="school">Kindergarten, Peshawar, Pakistan</span></p>
-
+        <p><span class="years-of-education">2004</span>
+        <span class="school">Kindergarten, Peshawar, Pakistan</span></p>
+     </div>
     </div>
 
     <div id="sprachen">
