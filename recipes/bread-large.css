@@ -1,0 +1,10 @@
+body {
+  min-width: 960px;
+}
+
+#bread {
+  display: inline;
+  width: 80em;
+  opacity: .8;
+  border-radius: .5em;
+}

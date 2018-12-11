@@ -1,11 +1,64 @@
 h1 {
   font-family: 'Bai Jamjuree', sans-serif;
+  background-color: rgb(172, 96, 45);
+  border: 1px solid rgb(172, 96, 45);
+  border-radius: .5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-body {
+body, .head {
   font-family: 'Crimson Text', serif;
+  font-size: 20px;
 }
 
 .nutrition-facts {
   font-family: 'Cutive Mono', monospace;
+}
+
+#bread {
+  display: inline;
+  width: 60em;
+  opacity: .8;
+  border-radius: .5em;
+}
+
+.sub-heads {
+  display: inline;
+  background-color: rgb(172, 96, 45);
+  border: 1px solid rgb(172, 96, 45);
+  border-radius: .5em;
+  margin: 5px;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+#goods, #directs, .nutrition-facts, .duration , .first-sentence {
+   color: black;
+   background-color: rgb(204, 188, 148);
+   opacity: 0.8;
+   border: 1px solid: rgb(204, 188, 148);
+   border-radius: .5em;
+   margin: 5px;
+   padding-left: .5em;
+   padding-right: .5em;
+}
+
+.duration {
+   display: inline-block;
+   color: black;
+   background-color: rgb(204, 188, 148);
+   opacity: 0.8;
+   border: 1px solid: rgb(204, 188, 148);
+   border-radius: .5em;
+   margin: 5px;
+   padding-left: .5em;
+   padding-right: .5em;
+}
+
+#ingredients {
+  right: 30em;
+  bottom: 19em;
+  padding-left: .2em;
 }
