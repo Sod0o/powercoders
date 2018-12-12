@@ -1,0 +1,27 @@
+#rectangle {
+  position: relative;
+  border: 1px solid black;
+  height: 160px;
+  width: 320px;
+}
+
+.blue_rectangle {
+  position: absolute;
+  border: 1px solid rgb(63, 186, 244);
+  background-color: rgb(63, 186, 244);
+  height: 32px;
+  width: 64px;
+  top: 64px;
+  right: 32px;
+}
+
+.pink_cercle {
+  position: absolute;
+  border: 1px solid rgb(238, 45, 250);
+  border-radius: 50%;
+  background-color: rgb(238, 45, 250);
+  height: 32px;
+  width: 64px;
+  top: 64px;
+  left: 32px;
+}

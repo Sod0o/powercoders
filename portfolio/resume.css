@@ -16,16 +16,11 @@ img {
 }
 
 #personalien, #berufliche-tätigkeiten, #schulbildung, #school-info {
-  position: relative;
+  position: absolute;
 }
 
 .personal-info, #date-of-birth, #email-address,
 #date-of-arrival, #github-link, #telefon-number, .address, .work, .school {
   position: absolute;
   left: 14em;
-}
-
-.address {
-  position: relative;
-  bottom: 2.5em;
 }

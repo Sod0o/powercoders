@@ -14,3 +14,7 @@ span.personal-question::after {
 #me-large {
   display: none;
 }
+
+.referenzen {
+  font-family: 'Cutive Mono', monospace;
+}

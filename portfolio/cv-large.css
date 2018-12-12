@@ -1,0 +1,14 @@
+body {
+ width: 960px;
+ border-left: 1px solid rgb(94, 60, 60);
+ border-right: 1px solid rgb(94, 60, 60);
+}
+
+#me-large {
+  display: inline;
+  width: 500px;
+}
+
+#me-small {
+  display: none;
+}
