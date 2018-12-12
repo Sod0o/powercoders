@@ -34,7 +34,7 @@ body, .head {
   padding-right: .5em;
 }
 
-#goods, #directs, .nutrition-facts, .duration , .first-sentence {
+#goods, #directs, .nutrition-facts, .duration {
    color: black;
    background-color: rgb(204, 188, 148);
    opacity: 0.8;
@@ -58,7 +58,9 @@ body, .head {
 }
 
 #ingredients {
-  right: 30em;
-  bottom: 19em;
   padding-left: .2em;
+}
+
+.first-sentence {
+  display: inline;
 }
