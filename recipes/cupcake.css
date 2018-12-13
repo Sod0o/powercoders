@@ -3,7 +3,7 @@ h1 {
   color: rgb(238, 194, 55);
   background-color: rgba(255, 13, 13, 0.6);
   border-radius: 5px;
-  margin: 0;
+  margin: 0 1em 0 1em;
 }
 
 body {
@@ -30,7 +30,6 @@ h2, .frosting, .time, .preparation, .baking, .making, .nr-cupcake {
 #frosting, #direction, .quantity, #preparation, .duration, .cooling,
 #baking, .number-of-servings, .cool, .nutrition-facts, #facts {
   border-radius: .5em;
-  padding-left: .5em;
 }
 
 .requirements ,#nutrition-facts {
@@ -41,27 +40,35 @@ h2, .frosting, .time, .preparation, .baking, .making, .nr-cupcake {
   background-color: rgba(210, 0, 0, 0.12);
 }
 
-#facts {
+#facts, #requirements {
   white-space: pre;
   padding-bottom: .5em;
 }
 
-
 #pic {
   position: relative;
+  margin-left: 2em;
 }
 
 #nutrition-facts {
   margin: 1em;
   position: absolute;
-  top: 23%;
-  left: 50%;
+  top: 18.5%;
+  left: 55%;
   padding-right: 1em;
 }
 
 .requirements {
   position: absolute;
-  top: 26%;
-  left: 25%;
+  top: 18%;
+  left: 35%;
   padding-right: 1em;
+}
+
+div {
+  margin: 1em;
+}
+
+.para {
+  padding-left: 2em;
 }
