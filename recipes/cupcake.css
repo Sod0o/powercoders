@@ -18,7 +18,7 @@ body {
   font-family: 'Anonymous Pro', monospace;
 }
 
-h2, .frosting, .time, .preparation, .baking, .making {
+h2, .frosting, .time, .preparation, .baking, .making, .nr-cupcake {
   background-color: rgb(238, 194, 55);
   color: rgba(255, 13, 13, 0.6);
   padding-left: .3em;
@@ -33,10 +33,35 @@ h2, .frosting, .time, .preparation, .baking, .making {
   padding-left: .5em;
 }
 
-.requirements {
+.requirements ,#nutrition-facts {
   margin-left: .5em;
   border-style: inherit;
   border-color: white;
   border-radius: .5em;
   background-color: rgba(210, 0, 0, 0.12);
+}
+
+#facts {
+  white-space: pre;
+  padding-bottom: .5em;
+}
+
+
+#pic {
+  position: relative;
+}
+
+#nutrition-facts {
+  margin: 1em;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  padding-right: 1em;
+}
+
+.requirements {
+  position: absolute;
+  top: 26%;
+  left: 25%;
+  padding-right: 1em;
 }
