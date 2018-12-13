@@ -1,17 +1,16 @@
 h1 {
   font-family: 'Montserrat', sans-serif;
-  color: white;
-  background-color: rgba(191, 40, 40, 0.93);
+  color: rgb(238, 194, 55);
+  background-color: rgba(255, 13, 13, 0.6);
   border-radius: 5px;
+  margin: 0;
 }
 
 body {
   font-family: 'Slabo 27px', serif;
-  color: white;
-  background-color: rgb(251, 151, 63);
-  font-size: 24px;
-  margin: .5em;
-  padding: .5em .5em;
+  color: rgb(233, 161, 73);
+  font-size: 20px;
+  padding: .5em;
   border-radius: 5px;
 }
 
@@ -20,19 +19,24 @@ body {
 }
 
 h2, .frosting, .time, .preparation, .baking, .making {
-  background-color: rgb(228, 90, 90);
-  padding-left: 1px;
-  padding-right: 1px;
+  background-color: rgb(238, 194, 55);
+  color: rgba(255, 13, 13, 0.6);
+  padding-left: .3em;
+  padding-right: .3em;
   border-radius: 5px;
+  margin-left: .5em;
 }
 
-.ingreds, #frosting, #direction, .quantity, #preparation, .duration, .cooling,
+#frosting, #direction, .quantity, #preparation, .duration, .cooling,
 #baking, .number-of-servings, .cool, .nutrition-facts, #facts {
-  background-color: rgb(238, 169, 69);
   border-radius: .5em;
-  padding-left: 1px;
+  padding-left: .5em;
 }
 
-#pic {
-  align: center;
+.requirements {
+  margin-left: .5em;
+  border-style: inherit;
+  border-color: white;
+  border-radius: .5em;
+  background-color: rgba(210, 0, 0, 0.12);
 }
