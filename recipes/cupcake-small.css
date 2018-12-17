@@ -30,39 +30,6 @@ h2, .frosting, .time, .preparation, .baking, .making, .nr-cupcake {
   margin-left: .5em;
 }
 
-#frosting, #direction, .quantity, #preparation, .duration, .cooling,
-#baking, .number-of-servings, .cool, .nutrition-facts, #facts {
-  border-radius: .5em;
-}
-
-.requirements ,#nutrition-facts {
-  margin-left: .5em;
-  border-style: inherit;
-  border-color: white;
-  border-radius: .5em;
-  background-color: rgba(210, 0, 0, 0.12);
-}
-
-#facts, #requirements {
-  white-space: pre;
-  padding-bottom: .5em;
-}
-
-#nutrition-facts {
-  margin: .5em;
-  position: absolute;
-  top: 35.5%;
-  right: 2%;
-  padding-right: 1em;
-}
-
-.requirements {
-  position: absolute;
-  top: 12%;
-  right: 1%;
-  padding-right: 1em;
-}
-
 div {
   margin: 1em;
 }
@@ -73,8 +40,4 @@ div {
   background-color: rgba(255, 13, 13, 0.37);
   margin: 1em 10em 0 10em;
   position: relative;
-}
-
-#direction {
-  margin-top: 3em;
 }
