@@ -4,7 +4,7 @@ function greet(name) {
   console.log('Hello, ' + name);
 }
 
-function setClass(event, className) {
+function setClass(className) {
   let el = document.getElementById('mypara');
   el.className = className;
 }
@@ -15,13 +15,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
    setClass(event, 'warning');
   });
 
-  let makeTip = document.getElementById('make-tip');
-  makeTip.addEventListener('click', function(event) {
-    setClass(event, 'tip');
+  document.getElementById('make-tip').addEventListener('click', function(event) {
+    setClass('tip');
 });
 
-  let makeNormal = document.getElementById('make-normal');
-  makeNormal.addEventListener('click', function(event) {
-    setClass(event, '');
+  document.getElementById('make-normal').addEventListener('click', function(event) {
+    setClass('');
   });
 });

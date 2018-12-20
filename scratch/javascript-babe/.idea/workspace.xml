@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/../../portfolio/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../portfolio/resume.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../recipes/Cupcake.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../recipes/Cupcake.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../recipes/cupcake-small.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../recipes/cupcake-small.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/setClass.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -45,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setClass.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -65,10 +64,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="477" />
+    <option name="x" value="476" />
     <option name="y" value="679" />
     <option name="width" value="1106" />
-    <option name="height" value="1388" />
+    <option name="height" value="1390" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -76,7 +75,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,6 +86,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,11 +129,12 @@
       <workItem from="1545122688730" duration="960000" />
       <workItem from="1545141014023" duration="598000" />
       <workItem from="1545293702180" duration="4793000" />
+      <workItem from="1545309844312" duration="296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9420000" />
+    <option name="totallyTimeSpent" value="9716000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -147,6 +147,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1248" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24917492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24257426" />
@@ -187,8 +188,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setClass.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
