@@ -20,24 +20,24 @@ function lists() {
 
     // DONE: Create and append first item
     let li1 = document.createElement('li');
-    let li1Content = document.createTextNode('Hi');
+    let li1Content = document.createTextNode('bubbla');
     li1.appendChild(li1Content);
     elUl.appendChild(li1);
 
     // TODO: Create and append second item
     let li2 = document.createElement('li');
-    let li2Content = document.createTextNode('Hi ');
+    let li2Content = document.createTextNode('bubbla ');
     li2.appendChild(li2Content);
     elUl.appendChild(li2);
 
     let li3 = document.createElement('em');
-    let li3Content = document.createTextNode('Hoi');
+    let li3Content = document.createTextNode('bubblie');
     li3.appendChild(li3Content);
     li2.appendChild(li3);
 
     // TODO: Create and append third item
     let li4 = document.createElement('li');
-    let li4Content = document.createTextNode('Hi Hoi Hello');
+    let li4Content = document.createTextNode('bubbla bubblie boo');
     li4.appendChild(li4Content);
     elUl.appendChild(li4);
 
@@ -47,7 +47,7 @@ function lists() {
 }
 
 document.addEventListener('DOMContentLoaded', function (event) {
-    document.getElementById('click-me', function (event) {
+    document.getElementById('magic').addEventListener('click', function (event) {
         lists();
     });
 });
