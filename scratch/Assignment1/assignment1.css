@@ -2,7 +2,7 @@
 
 #give-margin {
   margin-left: 33%;
-  margin-right: 2%;
+  margin-right: 3%;
   margin-top: 1em;
   padding-right: 1em;
 }
@@ -41,9 +41,10 @@ body {
   left: 5%;
 }
 
-ul {
-  list-style: none;
+.remove-bullet {
+  list-style-type: none;
 }
+
 
 #circle {
   border: 1px solid rgb(219, 124, 24);
@@ -51,19 +52,20 @@ ul {
   background-color: rgb(219, 124, 24);
   font-weight: normal;
   color: white;
-  transform: rotate(-15deg);
+  transform: rotate(-12deg);
   height: 13%;
-  width: 14%;
+  width: 13%;
   position: absolute;
   top: 30%;
-  left: 10%;
+  left: 8%;
+  margin: 2em;
 }
 
 .inside-border {
   font-size: 26px;
   position: absolute;
-  left: 18%;
-  top: 13%;
+  left: 15%;
+  top: 10%;
 }
 
 #pics {
@@ -91,13 +93,14 @@ ul {
   color: white;
   display: block;
   width: 100%;
-
 }
 
 .list {
-  margin-left: 29%;
+  margin-left: 31%;
+  list-style-type: bullet;
 }
 
-.email {
-  margin-left: 85%;
+#email {
+  position: absolute;
+  right: 6%
 }
