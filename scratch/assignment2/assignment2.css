@@ -56,31 +56,18 @@ body {
   width: 100%;
 }
 
-.top-layer {
-  background-color: rgba(175, 218, 231, 0.48);
-  position: absolute;
-  top: -16px;
-  left: 0;
-  width: 100%;
-  height: 154%;
-  opacity: 0.6;
-}
 
 .top-layer-image {
-  background: url(view.jpg) no-repeat;
-  background-attachment: fixed;
+  background: url(view.jpg);
   background-size: cover;
-  opacity: 0.5;
-  height: 40%;
+  box-shadow: inset 0 0 0 1000px rgba(231, 242, 246, .7);
+  display: grid;
+  grid-template-rows: 10% 90%;
 }
 
 h1 {
   text-align: center;
-  margin-top: 0;
   color: rgb(1, 54, 106);
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: auto;
   font-family: 'Nanum Gothic', sans-serif;
