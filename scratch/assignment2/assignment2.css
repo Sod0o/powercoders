@@ -7,6 +7,7 @@ body {
   position: relative;
   margin: 0;
   background-color: rgba(231, 242, 246, .7);
+
 }
 
 #header {
@@ -52,9 +53,9 @@ body {
 
 .content {
   border: 1px none;
-  padding-bottom: 25%;
   position: relative;
   width: 100%;
+  margin-bottom: 150px;
 }
 
 
@@ -121,7 +122,7 @@ margin-left: 13%;
   color: rgb(1, 54, 106);
   position: absolute;
   left: 38%;
-  top: 12%;
+  top: 20%;
   font-size: 14px;
 
   text-align: justify;
@@ -199,10 +200,11 @@ p {
   padding: .1em 3em;
   list-style: none;
   margin-left: -4px;
-
 }
 
-
+.giveunderline {
+  border-bottom: 1px solid rgb(192, 219, 242);
+}
 
 
 
@@ -220,5 +222,4 @@ p {
   text-align: right;
   color: rgb(192, 219, 242);
   padding: 8px;
-  margin-top: 25%;
 }
