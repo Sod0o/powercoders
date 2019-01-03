@@ -62,7 +62,7 @@ body {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(231, 242, 246, .7);
   display: grid;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 27% 90%;
 }
 
 h1 {
@@ -72,17 +72,15 @@ h1 {
   height: auto;
   font-family: 'Nanum Gothic', sans-serif;
   letter-spacing: 5px;
-}
-
-
-.list-con {
-  position: relative;
+  margin-top: 1em;
 }
 
 .rb {
   list-style: none;
   color: rgb(192, 219, 242);
-  line-height: 300%;
+  font-size: 14px;
+  line-height: 200%;
+
 }
 
 .first-list {
@@ -91,50 +89,51 @@ margin-left: 13%;
 
 .bcolor {
   background-color: rgb(1, 54, 106);
-  padding: .5em 1.5em;
+  padding: .25em .75em;
   border: 1px solid transparent;
   border-radius: 5px;
 
 }
 
-.rlist {
+.left-list {
   color: rgb(1, 54, 106);
   background-color: rgb(232, 244, 248);
-  padding: .5em 1.5em;
+  padding: .25em .75em;
   border: 1px solid transparent;
   border-radius: 5px;
   line-height: 500%;
 }
 
+.rlist {
+  background-color: rgb(1, 54, 106);
+  padding: .25em .75em;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 38%;
+}
+
 .text {
   display: block;
   columns: 2;
-  column-gap: 7%;
-  width: 50%;
-  height: 50%;
+  column-gap: 5%;
+  width: 45%;
   color: rgb(1, 54, 106);
   position: absolute;
-  right: 10%;
-  top: 10%;
+  left: 38%;
+  top: 15%;
+  font-size: 14px;
+
+  text-align: justify;
+
 }
 
+p {
+  margin: 4px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.highlight {
+  background-color: rgba(77, 53, 53, 0.22);
+}
 
 
 
