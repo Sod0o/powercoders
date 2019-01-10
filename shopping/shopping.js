@@ -21,11 +21,13 @@ function createNewListItem(itemName) {
 document.addEventListener('DOMContentLoaded', function (event) {
   document.querySelector('button').addEventListener('click', function (event) {
     document.querySelector('ul').appendChild(createNewListItem(document.getElementById('item').value));
+    document.getElementById('item').value = '';
   });
 
   document.querySelector('input').addEventListener('keyup',function (event) {
     if (event.key === 'Enter') {
       document.querySelector('ul').appendChild(createNewListItem(document.getElementById('item').value));
+      document.getElementById('item').value = '';
     }
   });
 });
