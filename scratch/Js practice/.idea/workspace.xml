@@ -7,7 +7,17 @@
       <change beforePath="$PROJECT_DIR$/../../portfolio/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../portfolio/resume.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../recipes/Cupcake.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../recipes/Cupcake.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../recipes/cupcake-small.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../recipes/cupcake-small.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/horsy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/kaka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/kaka2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/kaka3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/kaka3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/log.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javascript-babe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javascript-babe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopping/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopping/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopping/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopping/shopping.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,20 +30,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nodejs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="516">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nodejs.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+            <state relative-caret-position="34">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -54,41 +64,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/node.html" />
         <option value="$PROJECT_DIR$/nodejs.js" />
+        <option value="$PROJECT_DIR$/node.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1162" />
-    <option name="y" value="87" />
-    <option name="width" value="1106" />
-    <option name="height" value="1381" />
+    <option name="x" value="323" />
+    <option name="y" value="161" />
+    <option name="width" value="1502" />
+    <option name="height" value="1404" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Js practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Js practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../shopping" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -125,18 +122,24 @@
       <option name="presentableId" value="Default" />
       <updated>1545382987015</updated>
       <workItem from="1545382988687" duration="6329000" />
-      <workItem from="1545396501006" duration="5523000" />
+      <workItem from="1545396501006" duration="5526000" />
+      <workItem from="1545402909944" duration="3072000" />
+      <workItem from="1545435957575" duration="225000" />
+      <workItem from="1546088842775" duration="13000" />
+      <workItem from="1546869181478" duration="3749000" />
+      <workItem from="1546929116319" duration="968000" />
+      <workItem from="1546935665268" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11852000" />
+    <option name="totallyTimeSpent" value="19929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1248" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.50825083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -159,17 +162,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node.html">
+    <entry file="file://$PROJECT_DIR$/nodejs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        <state relative-caret-position="516">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs.js">
+    <entry file="file://$PROJECT_DIR$/node.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
