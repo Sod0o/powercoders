@@ -10,7 +10,8 @@ function createNewListItem(itemName) {
 
   deleteButton.addEventListener('click', function (event) {
     li.remove();
-    console.log('Delete button clicked: ' + itemName);
+    let inputBox = document.getElementById('item');
+    inputBox.focus();
   });
 
   document.querySelector('ul').appendChild(li);
@@ -18,16 +19,22 @@ function createNewListItem(itemName) {
   return li;
 }
 
-document.addEventListener('DOMContentLoaded', function (event) {
+document.addEventListener('DOMContentLoaded', function (event) {                      // *This is a big scope
+  let inputBox = document.getElementById('item');
+  inputBox.focus();
   document.querySelector('button').addEventListener('click', function (event) {
-    document.querySelector('ul').appendChild(createNewListItem(document.getElementById('item').value));
-    document.getElementById('item').value = '';
+    document.querySelector('ul').appendChild(createNewListItem(inputBox.value));
+    inputBox.value = '';
+    inputBox.focus();                     // This is called a statement. And a nested scope too.
+
   });
 
   document.querySelector('input').addEventListener('keyup',function (event) {
-    if (event.key === 'Enter') {
-      document.querySelector('ul').appendChild(createNewListItem(document.getElementById('item').value));
-      document.getElementById('item').value = '';
+    if (inputBox.value !== '') {
+      if (event.key === 'Enter') {
+        document.querySelector('ul').appendChild(createNewListItem(inputBox.value));
+        inputBox.value = '';
+      }
     }
   });
-});
+}); // Till here*
