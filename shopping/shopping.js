@@ -19,9 +19,12 @@ function createNewListItem(itemName) {
   return li;
 }
 
-document.addEventListener('DOMContentLoaded', function (event) {                      // *This is a big scope
+document.addEventListener('DOMContentLoaded', function (event) {             // *This is a big scope
   let inputBox = document.getElementById('item');
+  let button = document.querySelector('button');
   inputBox.focus();
+  button.disabled = true;
+
   document.querySelector('button').addEventListener('click', function (event) {
     if (inputBox.trim() !== '') {
       document.querySelector('ul').appendChild(createNewListItem(inputBox.value.trim()));
@@ -31,6 +34,9 @@ document.addEventListener('DOMContentLoaded', function (event) {                
   });
 
   document.querySelector('input').addEventListener('keyup', function (event) {
+    if (inputBox.value !== '') {
+      button.disabled = false;
+    }
     if (inputBox.trim() !== '') {
       if (event.key === 'Enter') {
         document.querySelector('ul').appendChild(createNewListItem(inputBox.value.trim()));
