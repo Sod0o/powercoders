@@ -23,18 +23,21 @@ document.addEventListener('DOMContentLoaded', function (event) {                
   let inputBox = document.getElementById('item');
   inputBox.focus();
   document.querySelector('button').addEventListener('click', function (event) {
-    document.querySelector('ul').appendChild(createNewListItem(inputBox.value));
-    inputBox.value = '';
-    inputBox.focus();                     // This is called a statement. And a nested scope too.
-
+    if (inputBox.trim() !== '') {
+      document.querySelector('ul').appendChild(createNewListItem(inputBox.value.trim()));
+      inputBox.value = '';      // This is called a statement. And a nested scope too.
+    }
+    inputBox.focus();
   });
 
-  document.querySelector('input').addEventListener('keyup',function (event) {
-    if (inputBox.value !== '') {
+  document.querySelector('input').addEventListener('keyup', function (event) {
+    if (inputBox.trim() !== '') {
       if (event.key === 'Enter') {
-        document.querySelector('ul').appendChild(createNewListItem(inputBox.value));
+        document.querySelector('ul').appendChild(createNewListItem(inputBox.value.trim()));
         inputBox.value = '';
       }
     }
   });
+
+  inputBox.value = '';
 }); // Till here*
