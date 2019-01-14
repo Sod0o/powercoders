@@ -1,16 +1,16 @@
 function createNewListItem(itemName) {
-  let li = document.createElement('li');
-  let span = document.createElement('span');
+  const li = document.createElement('li');
+  const span = document.createElement('span');
   span.innerText = itemName;
   li.appendChild(span);
 
-  let deleteButton = document.createElement('button');
+  const deleteButton = document.createElement('button');
   deleteButton.innerText = 'Delete';
   li.appendChild(deleteButton);
 
   deleteButton.addEventListener('click', function (event) {
     li.remove();
-    let inputBox = document.getElementById('item');
+    const inputBox = document.getElementById('item');
     inputBox.focus();
   });
 
@@ -20,10 +20,9 @@ function createNewListItem(itemName) {
 }
 
 document.addEventListener('DOMContentLoaded', function (event) {             // *This is a big scope
-  let inputBox = document.getElementById('item');
-  let button = document.querySelector('button');
+  const inputBox = document.getElementById('item');
+  const button = document.querySelector('button');
   inputBox.focus();
-  button.disabled = true;
 
   document.querySelector('button').addEventListener('click', function (event) {
     if (inputBox.trim() !== '') {
@@ -34,16 +33,32 @@ document.addEventListener('DOMContentLoaded', function (event) {             // 
   });
 
   document.querySelector('input').addEventListener('keyup', function (event) {
-    if (inputBox.value !== '') {
+    const trimmedValue = inputBox.value.trim();
+
+    if (trimmedValue !== '') {
       button.disabled = false;
-    }
-    if (inputBox.trim() !== '') {
       if (event.key === 'Enter') {
-        document.querySelector('ul').appendChild(createNewListItem(inputBox.value.trim()));
+        document.querySelector('ul').appendChild(createNewListItem(trimmedValue));
         inputBox.value = '';
+        button.disabled = true;
       }
+
+    } else {
+      button.disabled = true;
     }
   });
 
-  inputBox.value = '';
+  inputBox.focus();
+  button.disabled = true;
 }); // Till here*
+
+
+function elseTest(num) {
+  if (num < 10) {
+    console.log('less than 10');
+  } else if (num > 10) {
+    console.log('bigger than 10')
+  } else if (num === 10) {
+    console.log('exactly 10')
+  }
+}
