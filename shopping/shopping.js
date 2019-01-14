@@ -19,7 +19,7 @@ function createNewListItem(itemName) {
   return li;
 }
 
-document.addEventListener('DOMContentLoaded', function (event) {             // *This is a big scope
+document.addEventListener('DOMContentLoaded', function (event) {        // *This is a big scope
   const inputBox = document.getElementById('item');
   const button = document.querySelector('button');
   inputBox.focus();
@@ -40,16 +40,13 @@ document.addEventListener('DOMContentLoaded', function (event) {             // 
       if (event.key === 'Enter') {
         document.querySelector('ul').appendChild(createNewListItem(trimmedValue));
         inputBox.value = '';
-        button.disabled = true;
       }
-
-    } else {
-      button.disabled = true;
     }
+
+    button.disabled = inputBox.value.trim() === '';
   });
 
   inputBox.focus();
-  button.disabled = true;
 }); // Till here*
 
 
