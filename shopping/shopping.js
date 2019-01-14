@@ -22,28 +22,35 @@ function createNewListItem(itemName) {
 document.addEventListener('DOMContentLoaded', function (event) {        // *This is a big scope
   const inputBox = document.getElementById('item');
   const button = document.querySelector('button');
-  inputBox.focus();
+  const ul = document.querySelector('ul');
+  const trimmedValue = inputBox.value.trim();
 
-  document.querySelector('button').addEventListener('click', function (event) {
-    if (inputBox.trim() !== '') {
-      document.querySelector('ul').appendChild(createNewListItem(inputBox.value.trim()));
-      inputBox.value = '';      // This is called a statement. And a nested scope too.
+  button.addEventListener('click', function (event) {
+    if (trimmedValue === '') {
+      return;
     }
+
+    ul.appendChild(createNewListItem(trimmedValue));
+      inputBox.value = '';      // This is called a statement. And a nested scope too.
+    button.disabled = true;
     inputBox.focus();
   });
 
   document.querySelector('input').addEventListener('keyup', function (event) {
     const trimmedValue = inputBox.value.trim();
+    button.disabled = trimmedValue === '';
 
-    if (trimmedValue !== '') {
-      button.disabled = false;
-      if (event.key === 'Enter') {
-        document.querySelector('ul').appendChild(createNewListItem(trimmedValue));
-        inputBox.value = '';
-      }
+    if (trimmedValue === '') {
+      return;
     }
 
-    button.disabled = inputBox.value.trim() === '';
+    if (event.key !== 'Enter') {
+        return;
+    }
+
+    ul.appendChild(createNewListItem(trimmedValue));
+    inputBox.value = '';
+    button.disabled = true;
   });
 
   inputBox.focus();
@@ -51,11 +58,13 @@ document.addEventListener('DOMContentLoaded', function (event) {        // *This
 
 
 function elseTest(num) {
-  if (num < 10) {
-    console.log('less than 10');
-  } else if (num > 10) {
-    console.log('bigger than 10')
-  } else if (num === 10) {
-    console.log('exactly 10')
+  if (typeof (num) === 'number') {
+    if (num > 10) {
+      console.log('bigger than 10');
+    } else if (num === 10) {
+      console.log('exactly 10');
+    } else {
+      console.log('less than 10');
+    }
   }
 }
