@@ -37,7 +37,7 @@ function redbox(inputBox) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function (event) {        // *This is a big scope
+function domContentLoaded(){
   const inputBox = document.getElementById('item');
   const button = document.querySelector('button');
   const ul = document.querySelector('ul');
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function (event) {        // *This
     }
 
     if (event.key !== 'Enter') {
-        return;
+      return;
     }
 
     ul.appendChild(createNewListItem(trimmedValue));
@@ -78,14 +78,21 @@ document.addEventListener('DOMContentLoaded', function (event) {        // *This
   });
 
   clearListButton.addEventListener('click', function (event) {
-    const listItem = document.querySelectorAll('li');
-    listItem.forEach(function (element) {
-      element.remove();
-    });
+    const ul = document.querySelector('ul');
+    while (ul.firstChild) {
+      ul.firstChild.remove();
+    }
     clearListButton.disabled = true;
     inputBox.focus();
   });
 
-
   inputBox.focus();
-}); // Till here*
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', function (event) {        // *This is a big scope
+    domContentLoaded();
+  });
+} else {
+  domContentLoaded();
+}
