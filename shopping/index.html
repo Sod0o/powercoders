@@ -5,15 +5,25 @@
     <title>Shopping list</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="shopping.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
 
   <body>
-    <h1>My Shopping List</h1>
+    <header>
+      <img id="log" src="soda.png" alt="shoppinglogo">
+      <span id="blocktext">
+        <h1>Order your favorites from your home to your home!</h1></span>
+    </header>
 
+    <h2>My Shopping List</h2>
     <div>
       <label for="item">Enter a new item:</label>
       <input type="text" id="item" placeholder="Type something to buy">
-      <button>Add item</button>
+      <button id="add"><i class="fas fa-shopping-cart"></i> Add item</button>
+      <button id="clear">Remove all items</button>
     </div>
 
     <ul>

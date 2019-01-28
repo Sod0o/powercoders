@@ -1,38 +1,60 @@
+/**
+ * Creates and returns an 'li' element for inclusion in the shopping list.
+ *
+ * @param {string}itemName Name of the item to add to the list
+ * @returns {HTMLElement} li element
+ */
 function createNewListItem(itemName) {
   const li = document.createElement('li');
   const span = document.createElement('span');
-  span.innerText = itemName;
+  const ul = document.querySelector('ul');
+  span.innerText = itemName + '    ';
   li.appendChild(span);
 
   const deleteButton = document.createElement('button');
-  deleteButton.innerText = 'Delete';
+  deleteButton.innerHTML = '<i class="far fa-trash-alt fa-lg"></i>';
   li.appendChild(deleteButton);
 
   deleteButton.addEventListener('click', function (event) {
     li.remove();
     const inputBox = document.getElementById('item');
     inputBox.focus();
+
+    document.querySelector('#clear').disabled =
+        document.querySelectorAll('li').length === 0;
   });
 
-  document.querySelector('ul').appendChild(li);
+  ul.appendChild(li);
 
   return li;
+}
+
+function redbox(inputBox) {
+   if (inputBox.value === ''){
+    inputBox.className = 'redbox';
+  } else {
+    inputBox.className = '';
+  }
 }
 
 document.addEventListener('DOMContentLoaded', function (event) {        // *This is a big scope
   const inputBox = document.getElementById('item');
   const button = document.querySelector('button');
   const ul = document.querySelector('ul');
-  const trimmedValue = inputBox.value.trim();
+  const clearListButton = document.querySelector('#clear');
+
+  clearListButton.disabled = true;
 
   button.addEventListener('click', function (event) {
+    const trimmedValue = inputBox.value.trim();
     if (trimmedValue === '') {
       return;
     }
 
     ul.appendChild(createNewListItem(trimmedValue));
-      inputBox.value = '';      // This is called a statement. And a nested scope too.
+    inputBox.value = '';      // This is called a statement. And a nested scope too.
     button.disabled = true;
+    clearListButton.disabled = false;
     inputBox.focus();
   });
 
@@ -51,20 +73,19 @@ document.addEventListener('DOMContentLoaded', function (event) {        // *This
     ul.appendChild(createNewListItem(trimmedValue));
     inputBox.value = '';
     button.disabled = true;
+    clearListButton.disabled = false;
+    redbox(inputBox);
   });
+
+  clearListButton.addEventListener('click', function (event) {
+    const listItem = document.querySelectorAll('li');
+    listItem.forEach(function (element) {
+      element.remove();
+    });
+    clearListButton.disabled = true;
+    inputBox.focus();
+  });
+
 
   inputBox.focus();
 }); // Till here*
-
-
-function elseTest(num) {
-  if (typeof (num) === 'number') {
-    if (num > 10) {
-      console.log('bigger than 10');
-    } else if (num === 10) {
-      console.log('exactly 10');
-    } else {
-      console.log('less than 10');
-    }
-  }
-}
