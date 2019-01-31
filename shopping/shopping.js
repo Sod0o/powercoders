@@ -1,15 +1,22 @@
 /**
  * Creates and returns an 'li' element for inclusion in the shopping list.
  *
- * @param {string}itemName Name of the item to add to the list
+ * @param {{name: string, quantity: string}}item Item to append to the list
  * @returns {HTMLElement} li element
  */
-function createNewListItem(itemName) {
+function createNewListItem(item) {
   const li = document.createElement('li');
   const span = document.createElement('span');
-  const ul = document.querySelector('ul');
-  span.innerText = itemName + '    ';
+
+  span.innerText = item.name + '    ';
   li.appendChild(span);
+
+  if (item.quantity !== '') {
+    li.appendChild(document.createTextNode('  '));
+    const qSpan = document.createElement('span');
+    qSpan.innerText = '(' + item.quantity + ')';
+    li.appendChild(qSpan);
+  }
 
   const deleteButton = document.createElement('button');
   deleteButton.innerHTML = '<i class="far fa-trash-alt fa-lg"></i>';
@@ -23,8 +30,6 @@ function createNewListItem(itemName) {
     document.querySelector('#clear').disabled =
         document.querySelectorAll('li').length === 0;
   });
-
-  ul.appendChild(li);
 
   return li;
 }
@@ -42,6 +47,7 @@ function domContentLoaded(){
   const button = document.querySelector('button');
   const ul = document.querySelector('ul');
   const clearListButton = document.querySelector('#clear');
+  const quantity = document.getElementById('quantity');
 
   clearListButton.disabled = true;
 
@@ -51,8 +57,14 @@ function domContentLoaded(){
       return;
     }
 
-    ul.appendChild(createNewListItem(trimmedValue));
+    const item = {
+      name: trimmedValue,
+      quantity: quantity.value.trim()
+    };
+
+    ul.appendChild(createNewListItem(item));
     inputBox.value = '';      // This is called a statement. And a nested scope too.
+    quantity.value = '';
     button.disabled = true;
     clearListButton.disabled = false;
     inputBox.focus();
@@ -70,11 +82,18 @@ function domContentLoaded(){
       return;
     }
 
-    ul.appendChild(createNewListItem(trimmedValue));
+    const item = {
+      name: trimmedValue,
+      quantity: quantity.value.trim()
+    };
+
+    ul.appendChild(createNewListItem(item));
     inputBox.value = '';
+    quantity.value = '';
     button.disabled = true;
     clearListButton.disabled = false;
     redbox(inputBox);
+    inputBox.focus();
   });
 
   clearListButton.addEventListener('click', function (event) {
@@ -94,5 +113,5 @@ if (document.readyState === 'loading') {
     domContentLoaded();
   });
 } else {
-  domContentLoaded();
+   domContentLoaded();
 }
