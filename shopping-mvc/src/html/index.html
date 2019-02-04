@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping list</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../js/shopping-list-item.js" async></script>
+    <script src="../js/view.js" defer></script>
+    <script src="../js/model.js" defer></script>
+    <script src="../js/controller.js" defer></script>
+    <script src="../js/ui.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <header>
+      <img id="log" src="../static/soda.png" alt="shoppinglogo">
+      <div id="blocktext">
+        <h1>Order your favorites from your home to your home!</h1></div>
+    </header>
+
+    <h2>My Shopping List</h2>
+    <div>
+      <label for="item">Enter a new item:</label>
+      <input type="text" id="item" placeholder="Type something to buy">
+      <input type="text" id="quantity" size="11" placeholder="Type the quantity">
+      <button id="add"><i class="fas fa-shopping-cart"></i> Add item</button>
+      <button id="clear">Remove all items</button>
+    </div>
+
+    <ul>
+
+    </ul>
+
+  </body>
+</html>

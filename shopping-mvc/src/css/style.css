@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+label{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+h1 {
+  display: inline;
+  position: absolute;
+  top: 1%;
+  left: 18%;
+  color: #92d3e0;
+  font-family: 'Lovers Quarrel', cursive;
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-left: 2em;
+}
+
+li{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+#log {
+  width: 210px;
+}
+
+.blocktext {
+  color: #e6e1d7;
+}
+
+.redbox {
+  border: 1px solid red;
+}
+
+input {
+  outline: none;
+}
+
+header {
+  background-color: #e6e1d7;
+}
+
+div {
+  margin-left: 2.5em;
+}
