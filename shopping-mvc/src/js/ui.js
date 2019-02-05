@@ -1,11 +1,3 @@
-function redbox(inputBox) {
-  if (inputBox.value === '') {
-    inputBox.className = 'redbox';
-  } else {
-    inputBox.className = '';
-  }
-}
-
 function domContentLoaded() {
   new Controller();
 }
