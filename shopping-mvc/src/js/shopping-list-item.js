@@ -29,15 +29,6 @@ class ShoppingListItem {
     deleteButton.innerHTML = '<i class="far fa-trash-alt fa-lg"></i>';
     li.appendChild(deleteButton);
 
-    deleteButton.addEventListener('click', function (event) {
-      li.remove();
-      const inputBox = document.getElementById('item');
-      inputBox.focus();
-
-      document.querySelector('#clear').disabled =
-          document.querySelectorAll('li').length === 0;
-    });
-
     return li;
   }
 }

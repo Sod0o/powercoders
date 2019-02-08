@@ -19,4 +19,16 @@ class Controller {
     const item = new ShoppingListItem(name, quantity);
     this.model_.append(item);
   }
+  /**
+   * Delete the i'th item from the list.
+   *
+   * @param i {number}
+   */
+  deleteItem(i) {
+    this.model_.delete(i);
+  }
+
+  clearList() {
+    this.model_.clear();
+  }
 }
