@@ -5,6 +5,8 @@ body {
 #me-large {
   display: inline;
   width: 500px;
+  display: none;
+
 }
 
 #me-small {

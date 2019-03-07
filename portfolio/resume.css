@@ -4,7 +4,22 @@ h1, h2 {
 
 body {
   font-family: 'Noto Serif TC', serif;
-  margin: 2em 10em 10em;
+  margin: 2.5em 13em 10em 5em;
+  line-height: 2em;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+h2 {
+  margin: 1em 0 0 0;
+  padding-bottom: .5em;
+}
+
+.hobbies, .computer-knowledge {
+  margin: 1em 0 0 0;
 }
 
 .referenzen {
@@ -12,15 +27,14 @@ body {
 }
 
 img {
-  float: right;
+  position: absolute;
+  top: 17%;
+  right: 20%;
 }
 
-#personalien, #berufliche-tätigkeiten, #schulbildung, #school-info {
-  position: absolute;
+.grid-display {
+  display: grid;
+  grid-template-columns: 25% 45%;
+  grid-column-gap: 3.5em;
 }
 
-.personal-info, #date-of-birth, #email-address,
-#date-of-arrival, #github-link, #telefon-number, .address, .work, .school {
-  position: absolute;
-  left: 14em;
-}
