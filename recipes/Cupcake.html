@@ -3,10 +3,7 @@
 
   <head>
     <title>Cupcake</title>
-    <link rel="stylesheet" type="text/css" href="cupcake-small.css">
-    <link rel="stylesheet" type="text/css" href="cupcake-medium.css" media="screen and (min-width: 600px)">
-    <link rel="stylesheet" type="text/css" href="cupcake-large.css" media="screen and (min-width: 1200px)">
-    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="cupcake.css">
     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Montserrat|Slabo+27px" rel="stylesheet">
   </head>
 
@@ -15,9 +12,10 @@
       <h1 align="center"><strong>Key Lime Pie Cupcakes</strong></h1>
 
       <div class="ingredients">
-        <h2>Ingredients:</h2>
+        <h2><span id="hide-list" onclick="hide(event);">-</span>
+          <span id="show-list" class="hidden" onclick="show(event);">+</span> Ingredients:</h2>
 
-          <ol class="ingreds">
+          <ul class="ingreds">
             <li><span class="quantity"> 2 packages (14.1 ounces each)</span> <span class="ingredient">refrigerated pie pastry</span></li>
             <li><span class="quantity">1 cup </span>butter, softened</li>
             <li><span class="quantity">2-1/2 cups</span> <span class="ingredient">sugar</span></li>
@@ -26,20 +24,19 @@
             <li><span class="quantity">2 cups</span> <span class="ingredient">all-purpose flour</span></li>
             <li><span class="quantity">1-1/2 cups</span> <span class="ingredient">self-rising flour</span></li>
             <li><span class="quantity">1-1/2 cups</span> <span class="ingredient">buttermilk</span></li>
-          </ol>
-      </div>
+          </ul>
 
       <div id="frosting">
         <p><strong><span class="frosting">FROSTING:</span></strong></p>
 
-        <ol>
+        <ul>
           <li><span class="quantity">12 ounces</span> <span class="ingredient">cream cheese, softened</span></li>
           <li><span class="quantity">1-1/2 cups</span> <span class="ingredient">butter, softened</span></li>
           <li><span class="quantity">1-1/2 teaspoons</span> <span class="ingredient">vanilla extract</span></li>
           <li><span class="quantity">2-3/4 to 3 cups</span> <span class="ingredient">confectioners' sugar</span></li>
           <li><span class="quantity">6 tablespoons</span> <span class="ingredient">Key lime juice</span></li>
           <li><span class="ingredient"> Fresh raspberries</span></li>
-        </ol>
+        </ul>
       </div>
 
       <div id="direction">
@@ -73,10 +70,10 @@
       <div id="nutrition-facts">
         <h2>Nutrition Facts:</h2>
 
-        <p><div id="facts"><span class="nr-cupcake">1 cupcake:</span> 368 calories, 21g fat
+        <div id="facts"><span class="nr-cupcake">1 cupcake:</span> 368 calories, 21g fat
         (13g saturated fat), 78mg cholesterol
         256mg sodium, 42g carbohydrate
-        (27g sugars, 0 fiber), 4g protein</div></p>
+        (27g sugars, 0 fiber), 4g protein</div>
       </div>
 
       <div class="requirements">
@@ -89,6 +86,7 @@
         <p><strong><span class="making">makes:</span></strong> <span class="number-of-servings">32 cupcakes</span></p>
       </div>
     </div>
-  </body>
 
+    </div>
+  </body>
 </html>

@@ -35,9 +35,9 @@ div {
 }
 
 #bodydiv {
-  border: 1px solid rgba(237, 40, 40, 0.56);
-  border-radius: .5em;
+  border: 1px solid;
   background-color: rgba(255, 13, 13, 0.37);
-  margin: 1em 10em 0 10em;
+  margin: 0em 10em 0 10em;
   position: relative;
 }
+
