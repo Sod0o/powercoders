@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1cb99da0-15ff-41ed-aef3-6a95c80e11e9" name="Default Changelist" comment="Allow user to add the list items by pressing Enter Key.">
+      <change beforePath="$PROJECT_DIR$/../portfolio/resume-large.css" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/resume-large.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/Cupcake.html" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/Cupcake.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/cupcake-small.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/cupcake-small.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/cupcake.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/cupcake.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scratch/Assignment1/horsy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scratch/Assignment1/kaka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scratch/Assignment1/kaka2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scratch/Assignment1/kaka3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scratch/Assignment1/kaka3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scratch/Assignment1/log.png" beforeDir="false" afterPath="$PROJECT_DIR$/../scratch/Assignment1/log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scratch/Assignment1/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-mvc/src/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping-mvc/src/js/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-mvc/src/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping-mvc/src/js/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-mvc/src/js/shopping-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping-mvc/src/js/shopping-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-mvc/src/js/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping-mvc/src/js/view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="shopping" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-list-item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2023">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/shopping.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/shopping-list-item.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="945" />
+    <option name="y" value="105" />
+    <option name="width" value="1106" />
+    <option name="height" value="1423" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shopping-class" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-class" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shopping-mvc" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shopping/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ui.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ui.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.ui.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cb99da0-15ff-41ed-aef3-6a95c80e11e9" name="Default Changelist" comment="" />
+      <created>1546851612129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546851612129</updated>
+      <workItem from="1546851613386" duration="8607000" />
+      <workItem from="1546869214685" duration="4696000" />
+      <workItem from="1546929141044" duration="1325000" />
+      <workItem from="1546931145105" duration="340000" />
+      <workItem from="1546935713766" duration="7935000" />
+      <workItem from="1546944166324" duration="1347000" />
+      <workItem from="1546950814407" duration="3599000" />
+      <workItem from="1546966690528" duration="662000" />
+      <workItem from="1546991324813" duration="12000" />
+      <workItem from="1547109759103" duration="12688000" />
+      <workItem from="1547193173019" duration="17792000" />
+      <workItem from="1547332052326" duration="600000" />
+      <workItem from="1547420444339" duration="2179000" />
+      <workItem from="1547454336464" duration="12461000" />
+      <workItem from="1547506182258" duration="128000" />
+      <workItem from="1547543652452" duration="1745000" />
+      <workItem from="1547546912868" duration="12449000" />
+      <workItem from="1547630613371" duration="353000" />
+      <workItem from="1547803805262" duration="6531000" />
+      <workItem from="1547906554106" duration="56000" />
+      <workItem from="1547944094848" duration="814000" />
+      <workItem from="1548071348115" duration="171000" />
+      <workItem from="1548081155110" duration="271000" />
+      <workItem from="1548096189993" duration="470000" />
+      <workItem from="1548662595999" duration="9481000" />
+      <workItem from="1548688408346" duration="2347000" />
+      <workItem from="1548749261467" duration="14090000" />
+      <workItem from="1548841805372" duration="193000" />
+      <workItem from="1548842103519" duration="784000" />
+      <workItem from="1548924882796" duration="4802000" />
+      <workItem from="1548939747568" duration="2971000" />
+      <workItem from="1549232285621" duration="577000" />
+      <workItem from="1549269129494" duration="772000" />
+      <workItem from="1549277524656" duration="2039000" />
+      <workItem from="1549550524190" duration="608000" />
+      <workItem from="1549614033028" duration="54000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add a heading and an empty unordered list">
+      <created>1546853359963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546853359963</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Label and Input">
+      <created>1546856548105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546856548105</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Button element without attribute">
+      <created>1546857965760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546857965760</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add the button click event">
+      <created>1546868627022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546868627022</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add and delete List Items&#10; &#10; - Create a List Item with Span Element and Delete Button&#10; - Delete List item when the Delete Button is clicked">
+      <created>1546963109848</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546963109848</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Allow user to add the list items by pressing Enter Key.">
+      <created>1547127514367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547127514367</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Remove the value of the inputbox after adding the item">
+      <created>1547130924103</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547130924103</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Focus in the inputbox">
+      <created>1547209730203</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547209730203</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Trim the black spaces with .trim()">
+      <created>1547211513387</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547211513387</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Don't allow the user to add an empty list">
+      <created>1547213645361</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547213645361</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Enable the button when inserting a value">
+      <created>1547216715902</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547216715902</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Change the let keyword to const keyword">
+      <created>1547220100135</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547220100135</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Use if and else if">
+      <created>1547469386297</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547469386297</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Use if and else if">
+      <created>1547470423184</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547470423184</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Simplify with return">
+      <created>1547477469375</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547477469375</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Disable the Remove all items Button">
+      <created>1548669406387</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1548669406387</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Disable Remove all items Button after deleting all the list items individually">
+      <created>1548669607146</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1548669607146</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add async and domContentLoaded function">
+      <created>1548690875475</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1548690875475</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Use Object">
+      <created>1548942118448</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1548942118449</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Do refactoring by splitting files">
+      <created>1549278269646</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1549278269646</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="135949000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1248" height="797" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15429042" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32920793" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993994" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32882884" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32882884" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32882884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add a heading and an empty unordered list" />
+    <MESSAGE value="Add Label and Input" />
+    <MESSAGE value="Add Button element without attribute" />
+    <MESSAGE value="Add the button click event" />
+    <MESSAGE value="Add and delete List Items&#10; &#10; - Create a List Item with Span Element and Delete Button&#10; - Delete List item when the Delete Button is clicked" />
+    <MESSAGE value="Allow user to add the list item by pressing Enter Key." />
+    <MESSAGE value="Allow user to add the list items by pressing Enter Key." />
+    <MESSAGE value="Remove the value of the inputbox after adding the item" />
+    <MESSAGE value="Focus in the inputbox" />
+    <MESSAGE value="Trim the black spaces with .trim()" />
+    <MESSAGE value="Don't allow the user to add an empty list" />
+    <MESSAGE value="Enable the button when inserting a value" />
+    <MESSAGE value="Change the let keyword to const keyword" />
+    <MESSAGE value="Use if and else if" />
+    <MESSAGE value="Simplify with return" />
+    <MESSAGE value="Disable the Remove all items Button" />
+    <MESSAGE value="Disable Remove all items Button after deleting all the list items individually" />
+    <MESSAGE value="Add async and domContentLoaded function" />
+    <MESSAGE value="Use Object" />
+    <MESSAGE value="Do refactoring by splitting files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Do refactoring by splitting files" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../scratch/Js practice/nodejs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-list-item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

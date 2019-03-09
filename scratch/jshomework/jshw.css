@@ -1,0 +1,27 @@
+body{
+  margin-left: 1em;
+}
+
+
+.function {
+  color: #b46b30;
+  font-weight: bold;
+}
+
+.functionname {
+  color: #d0a959;
+  font-weight: bold;
+}
+
+.greytext {
+  color: #8d96a3;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+}
+
+.pink {
+  color: #6d4591;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Javascript Code Explanation</title>
+    <link rel="stylesheet" href="jshw.css">
+  </head>
+  <body>
+    <img src="1.png" alt="line-1">
+    <p>A <span class="function"><code>function</code></span> is being defined by
+      <span class="functionname"><code>createNewListItem</code></span> and the value of it's
+    parameter is <span class="greytext"><code>(itemName)</code></span>.</p>
+
+    <img src="2.PNG" alt="line-2">
+    <p><span class="functionname"><code>createElement</code></span> is a method that passes
+      <span class="green"><code>'li'</code></span> as parameter. <span class="greytext"><code>document</code></span> is a global object variable.
+      It means we create an element on DOM object in the global document variable and assign it to
+      <span class="function"><code>const</code></span>
+      variable called <span class="green"><code>'li'</code></span>.</p>
+      <p>CONSTANT - is mostly the same as let (so has the same features),
+    but with one major difference. While let can be reassigned, const cannot — so it is a variable that
+    always has one, and only one, value that must be assigned at the time of declaration, not later in any case.</p>
+
+    <img src="3.png" alt="line-3">
+    <p><span class="functionname"><code>createElement</code></span> is a method that passes a parameter called
+      <span class="green"><code>'span'</code></span> and <span class="greytext"><code>document</code></span> is a global object variable.
+      It means we create an element on DOM object in the global document variable and assign it to
+      <span class="function"><code>const</code></span>
+      variable called <span class="greytext"><code>span</code></span>.</p>
+
+    <img src="4.PNG" alt="line-4">
+    <p><span class="pink"><code>innerText</code></span> is going to return text content of
+      <span class="greytext"><code>span</code></span> with the value of
+      <span class="greytext"><code>itemName</code></span>.
+    </p>
+
+    <img src="5.PNG" alt="line-5">
+    <p>The child Node ( <span class="greytext"><code>span</code></span> ) is appended to the
+      parent Node ( <span class="greytext"><code>li</code></span> ).
+    </p>
+
+    <img src="7.PNG" alt="line-6">
+    <p>An element ( <span class="green"><code>'button'</code></span> ) is being created on DOM object in the global document variable using
+      <span class="functionname"><code>createElement</code></span> and assign it to
+      <span class="function"><code>const</code></span> variable called <span class="greytext"><code>deleteButton</code></span>.</p>
+
+    <img src="8.PNG" alt="line-8">
+    <p><span class="pink"><code>innerText</code></span> is going to return text content of
+      <span class="greytext"><code>deleteButton</code></span> with the value of
+      <span class="green"><code></code>' Delete '</span>.
+    </p>
+
+    <img src="9.PNG" alt="line-9">
+    <p>The child Node ( <span class="greytext"><code>deleteButton</code></span> ) is appended to the
+      parent Node ( <span class="greytext"><code>li</code></span> ).
+    </p>
+
+    <img src="11.PNG" alt="line-11">
+    <p> The method <span class="functionname"><code>addEventListener</code></span> that has two parameters:
+      type and a listener is being called on <span class="greytext"><code>deleteButton</code></span>.
+      In the first parameter we use <span class="green"><code></code>'click'</span> event and in the second parameter
+      we use a <span class="function"><code>function</code></span> with an event parameter. We proceed with our fuction
+      with a curly bracket. This means if we click on delete button, run the second code after this.
+    </p>
+
+    <img src="12.PNG" alt="line-12">
+    <p>After the click happens, the variable called <span class="greytext"><code>li</code></span> will be removed
+      with the method <span class="greytext"><code>.</code></span><span class="functionname"><code>remove</code></span>
+      <span class="greytext"><code>()</code></span> and will be closed by a <span class="function"><code>;</code></span>.
+    </p>
+
+    <img src="13.PNG" alt="line-13">
+    <p>
+
+      
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

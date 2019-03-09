@@ -1,0 +1,98 @@
+* {box-sizing: border-box;}
+
+#give-margin {
+  margin-left: 33%;
+  margin-right: 2%;
+  margin-top: 1em;
+  padding-right: 1em;
+}
+
+body {
+  position: relative;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: rgb(120, 103, 86);
+}
+
+#header {
+  background-color: rgb(236, 236, 228);
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-bottom: 2px;
+  font-size: 20px;
+  border-top: 5px solid rgb(152, 192, 12);
+  color: rgb(120, 103, 86);
+}
+
+.first-logo {
+  position: absolute;
+  left: 8%;
+  top: 3%;
+}
+
+#pages {
+  display: block;
+  width: 20%;
+  float: left;
+  color: rgb(152, 192, 12);
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  left: 5%;
+}
+
+ul {
+  list-style: none;
+}
+
+#circle {
+  border: 1px solid rgb(208, 128, 35);
+  border-radius: 100%;
+  background-color: rgb(208, 128, 35);
+  font-weight: normal;
+  color: white;
+  transform: rotate(-15deg);
+  height: 13%;
+  width: 14%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.inside-border {
+  font-size: 26px;
+  position: absolute;
+  left: 18%;
+  top: 13%;
+}
+
+#pics {
+  columns: 3;
+  display: inline-block;
+  margin-bottom: 2em;
+  border-bottom: 5px solid rgb(152, 192, 12);
+
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.date {
+  background-color: rgb(236, 236, 228);
+  display: inline;
+  padding: 1px 2px 1px 2px;
+  border-radius: .25em;
+}
+
+#footer {
+  border: .5em solid rgb(120, 103, 86);
+  background-color: rgb(120, 103, 86);
+  display: block;
+
+}
+
+.list, .email {
+  color: white;
+}
